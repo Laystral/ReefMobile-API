@@ -1,5 +1,5 @@
 {
-  "name": "freemobileapi",
+  "name": "freetmobile-api",
   "version": "0.0.0",
   "description": "A wrapper around Free Mobile API.",
   "main": "./dist/index.js",
@@ -30,7 +30,7 @@
   ],
   "author": "Lucas Lavajo <lucas.lavajo@gmail.com> (https://github.com/tryon-dev)",
   "bugs": {
-    "url": "https://github.com/tryon-dev/freemobileapi/issues"
+    "url": "https://github.com/Laystral/FreetMobile-API/issues"
   },
   "license": "GPL-3.0",
   "engines": {
