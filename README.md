@@ -1,6 +1,6 @@
 # ![Project Logo](https://via.placeholder.com/850x400?text=Free)
 
-# Free Mobile API Wrapper for React Native
+# Free Mobile API Wrapper
 
 This project is a React Native wrapper for the Free Mobile API, providing seamless integration and interaction with Free Mobile services, managed by Laystral.
 
