@@ -1,5 +1,5 @@
 {
-  "name": "freetmobile-api",
+  "name": "reefmobile-api",
   "version": "1.0.0",
   "description": "A wrapper around Free Mobile API.",
   "main": "./dist/index.js",
