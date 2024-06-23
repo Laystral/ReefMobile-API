@@ -1,4 +1,4 @@
-# ![Project Logo](https://via.placeholder.com/800x500?text=Free)
+# ![Project Logo](https://via.placeholder.com/850x400?text=Free)
 
 # Free Mobile API Wrapper for React Native
 
