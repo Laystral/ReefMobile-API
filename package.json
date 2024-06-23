@@ -1,0 +1,70 @@
+{
+  "name": "freemobileapi",
+  "version": "0.0.0",
+  "description": "A wrapper around Free Mobile API.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --dts --minify terser --clean --format cjs,esm --sourcemap",
+    "release": "release-it",
+    "lint": "tsc && eslint .",
+    "tsx": "tsx"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "Free Mobile",
+    "Free",
+    "wrapper",
+    "Freebox",
+    "France"
+  ],
+  "author": "Lucas Lavajo <lucas.lavajo@gmail.com> (https://github.com/tryon-dev)",
+  "bugs": {
+    "url": "https://github.com/tryon-dev/freemobileapi/issues"
+  },
+  "license": "GPL-3.0",
+  "engines": {
+    "node": ">=18"
+  },
+  "release-it": {
+    "git": {
+      "commitMessage": "chore: release v${version}",
+      "tagAnnotation": "Release v${version}",
+      "tagName": "js-v${version}"
+    },
+    "github": {
+      "release": true,
+      "draft": false,
+      "releaseName": "js v${version}"
+    },
+    "npm": {
+      "publish": true
+    },
+    "hooks": {
+      "before:init": "pnpm lint",
+      "after:bump": "pnpm build"
+    }
+  },
+  "devDependencies": {
+    "@stylistic/eslint-plugin": "^1.6.1",
+    "@types/node": "^20.14.2",
+    "@typescript-eslint/parser": "^6.21.0",
+    "dotenv": "^16.4.2",
+    "eslint": "^8.56.0",
+    "release-it": "^17.0.3",
+    "terser": "^5.27.0",
+    "tsup": "^8.0.2",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3"
+  }
+}
