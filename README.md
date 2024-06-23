@@ -17,7 +17,7 @@ This project is a React Native wrapper for the Free Mobile API, providing seamle
 To install the package, use the following command:
 
 ```sh
-npm install freemobileapi
+npm install freetmobile-api
 ```
 
 ## Usage
