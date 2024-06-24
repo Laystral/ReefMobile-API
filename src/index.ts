@@ -2,8 +2,8 @@
 export { LoginWithoutTrustedUuid, LoginWithTrustedUuid, VerifySMSCode } from "~/api/Auth";
 
 // Informations
-export { fetchCompleteUserData } from "~/api/UserData";
-export { fetchPeriodUsageDetails } from "~/api/PeriodUsageDetails";
+export { FetchCompleteUserData } from "~/api/UserData";
+export { FetchPeriodUsageDetails } from "~/api/PeriodUsageDetails";
 export { FetchInvoiceData } from "~/api/InvoiceData";
 export { FetchUnpaidInvoices } from "~/api/UnpaidInvoices";
-export { fetchPlanAndDiscountInfo } from "~/api/PlanAndDiscountInfo";
+export { FetchPlanAndDiscountInfo } from "~/api/PlanAndDiscountInfo";

@@ -1,6 +1,6 @@
 import { FREE_HOST_WITH_ENDPOINT } from "../utils/constants";
 
-function fetchPlanAndDiscountInfo(login: string, token: string) {
+function FetchPlanAndDiscountInfo(login: string, token: string) {
   return fetch(FREE_HOST_WITH_ENDPOINT + "/subscriber/" + login + "/offer", {
     method: "GET",
     headers: {
@@ -14,4 +14,4 @@ function fetchPlanAndDiscountInfo(login: string, token: string) {
   });
 }
 
-export { fetchPlanAndDiscountInfo };
+export { FetchPlanAndDiscountInfo };

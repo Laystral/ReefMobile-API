@@ -1,6 +1,6 @@
 import { FREE_HOST_WITH_ENDPOINT } from "../utils/constants";
 
-function fetchPeriodUsageDetails(login: string, token: string) {
+function FetchPeriodUsageDetails(login: string, token: string) {
   return fetch(FREE_HOST_WITH_ENDPOINT + "/subscriber/" + login + "/consumption", {
     method: "GET",
     headers: {
@@ -14,4 +14,4 @@ function fetchPeriodUsageDetails(login: string, token: string) {
   });
 }
 
-export { fetchPeriodUsageDetails };
+export { FetchPeriodUsageDetails };
