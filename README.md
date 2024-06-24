@@ -1,4 +1,4 @@
-# ![Project Logo]([https://via.placeholder.com/850x400?text=Free](https://github.com/Laystral/ReefMobile-API/blob/286df500104171b9c6988dd95f1bc1586644f917/.github/banner.png)
+# ![Project Logo](https://via.placeholder.com/850x400?text=Free](https://github.com/Laystral/ReefMobile-API/blob/286df500104171b9c6988dd95f1bc1586644f917/.github/banner.png)
 
 # Free Mobile API Wrapper
 
