@@ -29,11 +29,11 @@ import {
   LoginWithoutTrustedUuid, 
   LoginWithTrustedUuid, 
   VerifySMSCode,
-  fetchCompleteUserData,
-  fetchPeriodUsageDetails,
+  FetchCompleteUserData,
+  FetchPeriodUsageDetails,
   FetchInvoiceData,
   FetchUnpaidInvoices,
-  fetchPlanAndDiscountInfo
+  FetchPlanAndDiscountInfo
 } from 'freemobileapi';
 
 // Example usage
@@ -54,11 +54,11 @@ const login = async () => {
 
 ### User Data
 
-- `fetchCompleteUserData(login: string, token: string)`
+- `FetchCompleteUserData(login: string, token: string)`
 
 ### Usage Details
 
-- `fetchPeriodUsageDetails(login: string, token: string)`
+- `FetchPeriodUsageDetails(login: string, token: string)`
 
 ### Invoices
 
@@ -67,7 +67,7 @@ const login = async () => {
 
 ### Plan and Discounts
 
-- `fetchPlanAndDiscountInfo(login: string, token: string)`
+- `FetchPlanAndDiscountInfo(login: string, token: string)`
 
 ## Contributing
 
